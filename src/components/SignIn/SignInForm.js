@@ -70,7 +70,7 @@ class SignInFormBase extends Component {
 
 const SignInForm = compose(
   withRouter,
-  withFirebase,
+  withFirebase
 )(SignInFormBase);
 
 export default SignInForm;
